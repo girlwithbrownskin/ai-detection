@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Forensics Toolkit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">AI Forensics Toolkit</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Detect AI-Generated Content with Precision</h1>
+            <p>Analyze text, images, and videos to identify AI-generated forgeries.</p>
+            <a href="#features" class="btn">Learn More</a>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <i class="fas fa-font"></i>
+                <h3>Text Analysis</h3>
+                <p>Detect AI-generated text using entropy and linguistic patterns.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-image"></i>
+                <h3>Image Analysis</h3>
+                <p>Identify synthetic images through metadata and ELA.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-video"></i>
+                <h3>Video Analysis</h3>
+                <p>Analyze frame inconsistencies to detect deepfake videos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section id="upload" class="upload">
+        <h2>Upload Your File for Analysis</h2>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" accept=".txt, .jpg, .png, .mp4" required>
+            <button type="submit" class="btn">Analyze</button>
+        </form>
+        <div id="analysisResult"></div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About the Project</h2>
+        <p>The AI Forensics Toolkit is designed to combat misinformation by detecting AI-generated content across multiple media formats.</p>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 AI Forensics Toolkit. All rights reserved.</p>
+    </footer>
+</body>
+</html>
